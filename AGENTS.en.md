@@ -32,6 +32,21 @@ This document is a general-purpose example. Add project information and confirme
 - Use comments to explain intent and constraints that are not apparent from the code.
 - Record project-specific constraints with supporting evidence. Do not turn temporary requirements for a single task into permanent rules.
 
+## Required Project Constraints
+- Record platform requirements and mandatory rules established for the project.
+- Distinguish mandatory rules from recommendations.
+- Specify numerical values or limits only when supported by verified evidence.
+
+## Reuse of Shared Resources
+- Prefer existing design tokens, shared components, and utilities.
+- Check for resources serving the same purpose before creating new ones.
+- Record the paths and purposes of key resources.
+
+## Detailed Documentation
+- Maintain detailed rules in relevant documents and keep only essential guidance here.
+- Specify reference document paths and the situations in which they should be read.
+- When a decision is unclear, consult the relevant detailed documentation before proceeding.
+
 ## Verification
 - Perform verification appropriate to the changed behavior and its impact.
 - Prefer test, build, and static-check commands defined by the project.
@@ -69,3 +84,4 @@ This document is a general-purpose example. Add project information and confirme
 - Identify unfinished items, unverified behavior, and important limitations.
 - Make a final update to checklist status and verification records.
 - Update relevant documentation when lasting rules or usage instructions change.
+
