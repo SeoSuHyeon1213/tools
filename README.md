@@ -5,4 +5,4 @@
 - skill.md
 - agents.md
 - checklist.md
-**we also have kor, eng versioin**
+- **we also have kor, eng versioin**
