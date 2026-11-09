@@ -33,6 +33,20 @@ This is a general-purpose example. At the start of a task, define the goal and c
 - [ ] Action item 2:
 - [ ] Action item 3:
 
+## 2-1. Orchestration
+<!-- Use only for work involving the artwork role. Otherwise label `Not applicable — reason`. -->
+- Job ID: (e.g., 20261109-001)
+- [ ] Wrote the order in `orders/<job ID>.order.md` (items, sheet layout, style reference, output format).
+- [ ] Sent ChatGPT the "Check the mailbox" notice. Time sent:
+- [ ] Confirmed `deliveries/<job ID>/done.json`. Time confirmed:
+- [ ] Cut and resized the artwork (original sheets kept).
+- [ ] Added needed effects in code.
+- [ ] Recorded the review in `reviews/<job ID>.review.md`. New job ID if rework is needed:
+- [ ] Moved the finished job to `archive/`.
+- [ ] Deployed changes to the test address and checked them.
+- [ ] Asked the human about required decisions (release, drawing style, etc.). Answer:
+- [ ] Release: deployed to the production app only after the human directly said "release it" in the conversation.
+
 ## 3. Verification
 - [ ] Confirmed that the changed behavior meets the completion criteria.
 - [ ] Checked affected existing behavior within the necessary scope.
